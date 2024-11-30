@@ -5,13 +5,14 @@
     margin: auto;
     padding: 0px 140px;
     margin-bottom: 150px;
-    background: linear-gradient(180deg, #fde1ff 0%, white 60%);
+    background: linear-gradient(180deg,rgb(66, 66, 105) 0%, white 80%);
 }
-.offers-left{
+.offers-left {
     flex: 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding-top: -20px; /* Suba o texto */
 }
 .offers-left h1{
     color: black;
@@ -27,7 +28,7 @@
     width: 282px;
     height: 70px;
     border-radius: 35px;
-    background: red;
+    background: black;
     border: none;
     color: white;
     font-size: 22px;
@@ -35,12 +36,12 @@
     margin-top: 30px;
     cursor: pointer;
 }
-.offers-right{
+.offers-right {
     flex: 1;
     display: flex;
-    align-items: center;
+    align-items: flex-start; /* Move a imagem para cima */
     justify-content: flex-end;
-    padding-top: 50px;
+    padding-top: 20px; /* Ajuste o espaçamento superior */
 }
 @media(max-width:1280px){
     .offers{
